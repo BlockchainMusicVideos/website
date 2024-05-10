@@ -11,3 +11,7 @@ Website Source Code
   npm install
   npm run dev
 ```
+
+## Deployment 
+
+AWS Amplify would be the best option for hosting 
