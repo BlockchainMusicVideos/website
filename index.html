@@ -4,28 +4,24 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Block Chain Music Videos</title>
+    <title>Blockchain Music Videos</title>
   </head>
   <body>
     <div class="app" id="app">
       <figure class="video-container">
-        <video class="video" autoplay loop preload="metadata">
-          <source src="./src/Blockchain Music Videos.mov" type="video/mp4" />
+        <video class="video" autoplay loop controls preload="metadata">
+          <source
+            src="./src/media/videos/blockchain-music-videos.mov"
+            type="video/mp4"
+          />
           <!-- Fallback content for browsers that don't support MP4 -->
           <p>
             Your browser does not support the video format. Please consider
             upgrading to a modern browser.
           </p>
           <!-- Fallback thumbnail image -->
-          <img src="thumbnail.jpg" alt="Video thumbnail" />
+          <!-- <img src="thumbnail.jpg" alt="Video thumbnail" /> -->
         </video>
-        <!-- Captions or transcript for accessibility -->
-        <track
-          kind="captions"
-          src="captions.vtt"
-          srclang="en"
-          label="English"
-        />
         <figcaption>Music Video Homepage</figcaption>
       </figure>
     </div>
