@@ -1,6 +1,21 @@
 const video = document.getElementById("video") as HTMLVideoElement | null;
-if (video) {
-  video.play();
+const videoContainer = document.getElementById(
+  "video-container"
+) as HTMLDivElement | null;
+
+if (video && videoContainer) {
+  videoContainer.addEventListener("mouseenter", () => {
+    video.play();
+  });
+  videoContainer.addEventListener("mouseleave", () => {
+    video.pause();
+  });
+  videoContainer.addEventListener("touchend", () => {
+    video.pause();
+  });
+  videoContainer.addEventListener("mousemove", () => {
+    video.play();
+  });
 }
 
 // serviceWorker.ts
