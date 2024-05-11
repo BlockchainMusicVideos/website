@@ -7,8 +7,8 @@
 <header>
 	<nav>
 		<a href="/">Home</a>
-		<a href="/about">About</a>
-		<a href="/contact">Contact</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
 	</nav>
 	<h1>Welcome To Blockchain Music Videos</h1>
 	<p>Music Videos on the Blockchain</p>
