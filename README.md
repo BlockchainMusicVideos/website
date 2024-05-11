@@ -15,8 +15,3 @@ Website Source Code
 ## Deployment
 
 AWS Amplify would be the best option for hosting
-
-## TODOs
-
-- [ ] Complete layout for the website
-- [ ] Permissions-Policy: autoplay=(self) for video autoplay
