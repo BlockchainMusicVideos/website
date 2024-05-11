@@ -1,32 +1,31 @@
-const video = document.getElementById("video") as HTMLVideoElement | null;
-const videoContainer = document.getElementById(
-  "video-container"
-) as HTMLDivElement | null;
-const playButton = document.getElementById("play") as HTMLButtonElement | null;
+const video = document.querySelector("video").play();
+const playButton = document.querySelector(".play-button");
 
-// Autoplay video on page load
-if (video && videoContainer && playButton) {
-  const playPromise = video.play();
-
-  if (playPromise !== undefined) {
-    playPromise
-      .catch((error) => {
-        // Handle the case where the video cannot be automatically played
-        // due to autoplay restrictions in the browser
-        console.error("Autoplay was prevented. Error:", error);
-
-        // Show a UI element (e.g., a play button) to allow the user to manually start playback
-        playButton.style.display = "block";
-        playButton.addEventListener("click", () => {
-          video.play();
-        });
-      })
-      .then(() => {
-        // Autoplay started successfully
-        console.log("Autoplay started");
-      });
-  }
+if (video !== undefined) {
+  video
+    .then((_) => {
+      // Autoplay started!
+    })
+    .catch((error) => {
+      console.error("Autoplay was prevented", error);
+    });
 }
+
+window.addEventListener("load", () => {
+  playButton?.addEventListener("click", () => {
+    video
+      .then((_) => {
+        // Autoplay started!
+      })
+      .catch((error) => {
+        console.error("Autoplay was prevented", error);
+      });
+  });
+
+  setTimeout(() => {
+    playButton?.click();
+  }, 100);
+});
 
 // serviceWorker.ts
 // const registerServiceWorker = async () => {
