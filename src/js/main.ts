@@ -2,20 +2,30 @@ const video = document.getElementById("video") as HTMLVideoElement | null;
 const videoContainer = document.getElementById(
   "video-container"
 ) as HTMLDivElement | null;
+const playButton = document.getElementById("play") as HTMLButtonElement | null;
 
-if (video && videoContainer) {
-  videoContainer.addEventListener("mouseenter", () => {
-    video.play();
-  });
-  videoContainer.addEventListener("mouseleave", () => {
-    video.pause();
-  });
-  videoContainer.addEventListener("touchend", () => {
-    video.pause();
-  });
-  videoContainer.addEventListener("mousemove", () => {
-    video.play();
-  });
+// Autoplay video on page load
+if (video && videoContainer && playButton) {
+  const playPromise = video.play();
+
+  if (playPromise !== undefined) {
+    playPromise
+      .catch((error) => {
+        // Handle the case where the video cannot be automatically played
+        // due to autoplay restrictions in the browser
+        console.error("Autoplay was prevented. Error:", error);
+
+        // Show a UI element (e.g., a play button) to allow the user to manually start playback
+        playButton.style.display = "block";
+        playButton.addEventListener("click", () => {
+          video.play();
+        });
+      })
+      .then(() => {
+        // Autoplay started successfully
+        console.log("Autoplay started");
+      });
+  }
 }
 
 // serviceWorker.ts
