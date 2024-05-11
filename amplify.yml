@@ -10,7 +10,7 @@ frontend:
         - npm run build
         - node amplify.mjs
   artifacts:
-    baseDirectory: .amplify-hosting
+    baseDirectory: /
     files:
       - '**/*'
   cache:
