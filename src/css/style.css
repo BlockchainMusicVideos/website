@@ -19,3 +19,15 @@
   visibility: hidden;
   opacity: 0;
 }
+
+.unmute-btn {
+  position: fixed;
+  bottom: 4rem;
+  left: 2rem;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
