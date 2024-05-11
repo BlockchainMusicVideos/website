@@ -94,8 +94,5 @@ async function computeDependencies(paths = []) {
 		});
 }
 
-// Prepend dotenv import into the entrypoint
-prependSync(join('build', 'index.js'), `import 'dotenv/config'\n`);
-
 // Compute all the dependents on build/index.js and load them into the compute
 computeDependencies(['./build/index.js']);
