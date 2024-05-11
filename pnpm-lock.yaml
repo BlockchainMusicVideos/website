@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  detect-autoplay:
+    specifier: ^0.0.1
+    version: 0.0.1
+
 devDependencies:
   typescript:
     specifier: ^5.2.2
@@ -352,6 +357,10 @@ packages:
   /@types/estree@1.0.5:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
     dev: true
+
+  /detect-autoplay@0.0.1:
+    resolution: {integrity: sha512-mGj2RcBRJ1Hhmmab3LKOVelJFL9tNY/cQ++0L62zExVk9o3hUEbTO8sw5KsdKxMTXNS4wBi97CXCJ6UsJBDRXg==}
+    dev: false
 
   /esbuild@0.20.2:
     resolution: {integrity: sha512-WdOOppmUNU+IbZ0PaDiTst80zjnrOkyJNHoKupIcVyU8Lvla3Ugx94VzkQ32Ijqd7UhHJy75gNWDMUekcrSJ6g==}

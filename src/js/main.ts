@@ -1,31 +1,24 @@
+import { detectAutoplay } from "detect-autoplay";
 const video = document.querySelector("video") as HTMLVideoElement;
-const videoPromise = video?.play();
-const playButton = document.querySelector(".play-button") as HTMLButtonElement;
 
-if (videoPromise !== undefined) {
-  videoPromise
-    .then((_) => {
-      // Autoplay started!
-    })
-    .catch((error) => {
-      console.error("Autoplay was prevented", error);
-    });
-}
+detectAutoplay().then((canAutoplay) => {
+  if (canAutoplay) {
+    // current website allows autoplay with sound
+  } else {
+    // current website does not allow autoplay with sound
 
-window.addEventListener("load", () => {
-  playButton?.addEventListener("click", () => {
-    videoPromise
-      .then((_) => {
-        // Autoplay started!
-      })
-      .catch((error) => {
-        console.error("Autoplay was prevented", error);
-      });
-  });
+    // video can only be muted to autoplay
+    video.muted = true;
 
-  setTimeout(() => {
-    playButton?.click();
-  }, 100);
+    // show a button to unmute
+    const btn = document.createElement("button");
+    btn.textContent = "unmute";
+    btn.onclick = () => (video.muted = false);
+    document.body.appendChild(btn);
+  }
+
+  video.autoplay = true;
+  video.play();
 });
 
 // serviceWorker.ts
