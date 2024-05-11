@@ -1,6 +1,22 @@
 {
   "name": "Blockchain Music Videos",
   "short_name": "BMV",
+  "screenshots": [
+    {
+      "src": "screenshot-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Blockchain Music Videos Home Page"
+    },
+    {
+      "src": "screenshot-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Blockchain Music Videos Home Page"
+    }
+  ],
   "icons": [
     {
       "src": "/android-icon-36x36.png",
@@ -40,6 +56,7 @@
     }
   ],
   "start_url": "/",
+  "display_override": ["fullscreen", "minimal-ui"],
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
