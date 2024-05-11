@@ -1,8 +1,9 @@
-const video = document.querySelector("video").play();
+const video = document.querySelector("video") as HTMLVideoElement;
+const videoPromise = video?.play();
 const playButton = document.querySelector(".play-button") as HTMLButtonElement;
 
-if (video !== undefined) {
-  video
+if (videoPromise !== undefined) {
+  videoPromise
     .then((_) => {
       // Autoplay started!
     })
@@ -13,7 +14,7 @@ if (video !== undefined) {
 
 window.addEventListener("load", () => {
   playButton?.addEventListener("click", () => {
-    video
+    videoPromise
       .then((_) => {
         // Autoplay started!
       })
