@@ -11,6 +11,12 @@ dependencies:
   '@vercel/nft':
     specifier: ^0.27.0
     version: 0.27.0
+  can-autoplay:
+    specifier: ^3.0.2
+    version: 3.0.2
+  detect-autoplay:
+    specifier: ^0.0.1
+    version: 0.0.1
   dotenv:
     specifier: ^16.4.5
     version: 16.4.5
@@ -993,6 +999,10 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
+  /can-autoplay@3.0.2:
+    resolution: {integrity: sha512-Ih6wc7yJB4TylS/mLyAW0Dj5Nh3Gftq/g966TcxgvpNCOzlbqTs85srAq7mwIspo4w8gnLCVVGroyCHfh6l9aA==}
+    dev: false
+
   /chai@4.4.1:
     resolution: {integrity: sha512-13sOfMv2+DWduEU+/xbun3LScLoqN17nBeTLUsmDfKdoiC1fr0n9PU4guu4AhRcOVFk/sW8LyZWHuhWtQZiF+g==}
     engines: {node: '>=4'}
@@ -1119,6 +1129,10 @@ packages:
   /dequal@2.0.3:
     resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
     engines: {node: '>=6'}
+
+  /detect-autoplay@0.0.1:
+    resolution: {integrity: sha512-mGj2RcBRJ1Hhmmab3LKOVelJFL9tNY/cQ++0L62zExVk9o3hUEbTO8sw5KsdKxMTXNS4wBi97CXCJ6UsJBDRXg==}
+    dev: false
 
   /detect-indent@6.1.0:
     resolution: {integrity: sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA==}

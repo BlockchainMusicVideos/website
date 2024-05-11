@@ -1,1 +1,16 @@
+.user-hidden {
+	visibility: hidden;
+	opacity: 0;
+}
 
+.unmute-btn {
+	position: absolute;
+	bottom: 3rem;
+	left: 1rem;
+	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}

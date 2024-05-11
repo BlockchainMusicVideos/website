@@ -1,9 +1,3 @@
-<script lang="ts">
-	import type { PageData } from './$types';
-
-	export let data: PageData;
-</script>
-
 <h2>Legal Notice</h2>
 <p>Last updated: May 12, 2024</p>
 

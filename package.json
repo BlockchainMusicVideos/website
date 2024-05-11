@@ -39,6 +39,8 @@
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.1",
 		"@vercel/nft": "^0.27.0",
+		"can-autoplay": "^3.0.2",
+		"detect-autoplay": "^0.0.1",
 		"dotenv": "^16.4.5"
 	}
 }

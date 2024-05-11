@@ -1,9 +1,3 @@
-<script lang="ts">
-	import type { LayoutData } from './$types';
-
-	export let data: LayoutData;
-</script>
-
 <header>
 	<nav>
 		<a href="/">Home</a>
@@ -11,7 +5,6 @@
 		<a href="#">Contact</a>
 	</nav>
 	<h1>Welcome To Blockchain Music Videos</h1>
-	<p>Music Videos on the Blockchain</p>
 </header>
 
 <main>
@@ -33,16 +26,10 @@
 	main,
 	footer {
 		padding: 1rem;
-	}
-	header {
-		height: 250px;
-	}
-	main {
 		width: 1200px;
-		min-height: calc(100vh - 400px);
 		margin: 0 auto;
 	}
-	footer {
-		height: 150px;
+	main {
+		min-height: calc(100vh - 400px);
 	}
 </style>
