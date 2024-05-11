@@ -1,5 +1,5 @@
 const video = document.querySelector("video").play();
-const playButton = document.querySelector(".play-button");
+const playButton = document.querySelector(".play-button") as HTMLButtonElement;
 
 if (video !== undefined) {
   video
