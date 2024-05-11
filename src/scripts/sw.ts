@@ -10,7 +10,6 @@ const filesToCache = [
 ];
 
 self.addEventListener("install", (e: any) => {
-  importScripts("https://progressier.app/hC8sjUAljV5TYw6pbOcO/sw.js");
   console.log("[ServiceWorker] - Install");
   e.waitUntil(
     (async () => {
