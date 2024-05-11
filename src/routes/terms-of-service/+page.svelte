@@ -1,30 +1,24 @@
 <h2>BLOCKCHAIN MUSIC VIDEOS TERMS OF USE</h2>
 <h3>LAST REVISION: May 11, 2024</h3>
-<p>
-	SPECIAL NOTE FOR <a href="WWW.BLOCKCHAINMUSICVIDEOS.COM">WWW.BLOCKCHAINMUSICVIDEOS.COM</a>VISITORS
-</p>
+<p>SPECIAL NOTE FOR WWW.BLOCKCHAINMUSICVIDEOS.COMVISITORS</p>
 <p>
 	This is a legal agreement, and it is very important that you understand exactly what you are
 	agreeing to when you become a BLOCKCHAIN MUSIC VIDEOS member. Please review the following terms
-	and conditions of use carefully before accessing or utilizing <a
-		href="WWW.BLOCKCHAINMUSICVIDEOS.COM">WWW.BLOCKCHAINMUSICVIDEOS.COM</a
-	>and please inquire about anything you do not understand. If you are not 18 years of age, have
-	your parents review these Terms of Use and assist you to create and register a user account.
-	Therefore, if you do not agree to these Terms of Use, DO NOT set up a user account or otherwise
-	access, utilize or play the games available at WWW.BLOCKCHAINMUSICVIDEOS.COM.
+	and conditions of use carefully before accessing or utilizing WWW.BLOCKCHAINMUSICVIDEOS.COMand
+	please inquire about anything you do not understand. If you are not 18 years of age, have your
+	parents review these Terms of Use and assist you to create and register a user account. Therefore,
+	if you do not agree to these Terms of Use, DO NOT set up a user account or otherwise access,
+	utilize or play the games available at WWW.BLOCKCHAINMUSICVIDEOS.COM.
 </p>
 
 <p>
-	Thank you for visiting the <a href="WWW.BLOCKCHAINMUSICVIDEOS.COM"
-		>WWW.BLOCKCHAINMUSICVIDEOS.COM</a
-	>site owned and operated by BLOCKCHAIN MUSIC VIDEOS (“BCMV” or “we,” “us,” “our”). The
-	<a href="WWW.BLOCKCHAINMUSICVIDEOS.COM">WWW.BLOCKCHAINMUSICVIDEOS.COM</a>site and the services,
-	games, features, content, applications or widgets offered by BCMV are collectively referred to as
-	the “Services”. THESE TERMS OF USE, AS AMENDED FROM TIME TO TIME AND PUBLISHED AT
+	Thank you for visiting the WWW.BLOCKCHAINMUSICVIDEOS.COM site owned and operated by BLOCKCHAIN
+	MUSIC VIDEOS (“BCMV” or “we,” “us,” “our”). The WWW.BLOCKCHAINMUSICVIDEOS.COM site and the
+	services, games, features, content, applications or widgets offered by BCMV are collectively
+	referred to as the “Services”. THESE TERMS OF USE, AS AMENDED FROM TIME TO TIME AND PUBLISHED AT
 	WWW.BLOCKCHAINMUSICVIDEOS.COM/TOU, AND AS INCORPORATING THE PRIVACY POLICY (PUBLISHED AT
-	<a href="WWW.BLOCKCHAINMUSICVIDEOS.COM/PRIVACY">WWW.BLOCKCHAINMUSICVIDEOS.COM/PRIVACY</a>)
-	COMPRISE A LEGAL AGREEMENT BETWEEN YOU (“YOU”) AND BCMV. Your use of the Services is subject to
-	these TOU and all applicable laws, rules and regulations.
+	WWW.BLOCKCHAINMUSICVIDEOS.COM/PRIVACY) COMPRISE A LEGAL AGREEMENT BETWEEN YOU (“YOU”) AND BCMV.
+	Your use of the Services is subject to these TOU and all applicable laws, rules and regulations.
 </p>
 
 <p>
@@ -56,10 +50,8 @@
 </p>
 <p>
 	2. Privacy. Any information you provide during use of the Services is governed by the Privacy
-	Policy located at <a href="WWW.BLOCKCHAINMUSICVIDEOS.COM/PRIVACY"
-		>WWW.BLOCKCHAINMUSICVIDEOS.COM/PRIVACY</a
-	>. You agree to the collection, use and sharing of your information as set forth in our Privacy
-	Policy.
+	Policy located at WWW.BLOCKCHAINMUSICVIDEOS.COM/PRIVACY. You agree to the collection, use and
+	sharing of your information as set forth in our Privacy Policy.
 </p>
 <p>
 	3. Limitations. In connection with your use of the Services, you will not, and will not allow any

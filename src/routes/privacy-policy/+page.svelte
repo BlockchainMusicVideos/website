@@ -19,7 +19,7 @@
 
 <p>
 	If you have any questions about this Privacy Policy, please contact us at: <a
-		href="info@blockchainmusicvideos.com"
+		href="mailto:info@blockchainmusicvideos.com"
 	></a>
 </p>
 <h3>Information we collect</h3>
