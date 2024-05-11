@@ -3,9 +3,7 @@ frontend:
   phases:
     build:
       commands:
-        - env >> .env
         - npm run build
-        - node amplify.mjs
   artifacts:
     baseDirectory: build
     files:
