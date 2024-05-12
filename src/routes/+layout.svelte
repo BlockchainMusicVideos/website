@@ -38,6 +38,7 @@
 			var(--pico-primary-hover) 20%,
 			rgba(0, 0, 0, 0.4) 40%
 		);
+		padding: 2rem 1rem 0.5rem 1rem;
 	}
 
 	a {
