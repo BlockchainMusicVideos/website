@@ -1,9 +1,14 @@
+<script lang="ts">
+	import type { Snippet } from 'svelte';
+	let { children }: { children: Snippet } = $props();
+</script>
+
 <header>
 	<a href="/"><h1>Welcome To Blockchain Music Videos</h1></a>
 </header>
 
 <main>
-	<slot />
+	{@render children()}
 </main>
 
 <footer>
