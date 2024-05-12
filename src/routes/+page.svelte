@@ -15,7 +15,7 @@
 		background-color: var(--pico-primary);
 		padding: 1rem 2rem;
 		border-radius: 100svh;
-		font-size: 1.5rem;
+		font-size: clamp(1rem, 2vw, 1.5rem);
 		color: var(--pico-contrast-background);
 		margin-top: 0.5rem;
 		cursor: pointer;

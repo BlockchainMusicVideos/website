@@ -21,7 +21,7 @@
 	main,
 	footer {
 		padding: 1rem;
-		width: 1200px;
+		max-width: 1200px;
 		margin: 0 auto;
 		background: rgba(0, 0, 0, 0.4);
 	}

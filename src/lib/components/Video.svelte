@@ -57,8 +57,8 @@
 <style>
 	.video-container {
 		position: relative;
-		width: auto;
-		height: 100%;
+		width: 100%;
+		height: auto;
 		margin: 0;
 		overflow: hidden;
 		border-radius: 1rem;
