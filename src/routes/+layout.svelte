@@ -27,7 +27,12 @@
 	}
 	main {
 		min-height: calc(100vh - 400px);
-		background: rgba(0, 0, 0, 0.2);
+		background: linear-gradient(
+			180deg,
+			var(--pico-primary-background) 8%,
+			var(--pico-primary-hover) 20%,
+			rgba(0, 0, 0, 0.4) 40%
+		);
 	}
 	a {
 		color: var(--pico-primary);

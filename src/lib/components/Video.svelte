@@ -23,38 +23,34 @@
 	}
 
 	onMount(() => {
-		video = document.querySelector('.video');
-		video_container = document.querySelector('.video-container');
-
 		if (video && video_container) {
 			detectAutoplay().then((canAutoplay) => {
 				if (canAutoplay) {
 					// current website allows autoplay with sound
 				} else {
-					// current website does not allow autoplay with sound
+					if (video) {
+						video.muted = true;
 
-					// video can only be muted to autoplay
-					video.muted = true;
-
-					// show a button to unmute
-					const btn = document.createElement('button');
-					btn.textContent = 'Sound';
-					btn.classList.add('unmute-btn');
-					btn.onclick = () => {
-						video.muted = !is_muted;
-						is_muted = !is_muted;
-					};
-					video_container?.appendChild(btn);
+						// show a button to unmute
+						const btn = document.createElement('button');
+						btn.textContent = 'Sound';
+						btn.classList.add('unmute-btn');
+						btn.onclick = () => {
+							video!.muted = !is_muted;
+							is_muted = !is_muted;
+						};
+						video_container?.appendChild(btn);
+					}
 				}
 
-				video.autoplay = true;
-				video.play();
+				video!.autoplay = true;
+				video!.play();
 			});
 		}
 	});
 </script>
 
-<figure id="video-container" class="video-container">
+<figure class="video-container" bind:this={video_container}>
 	<button class="play-button" onclick={togglePlay}>
 		{#if isPlaying}
 			<span>Pause</span>
@@ -62,7 +58,7 @@
 			<span>Play</span>
 		{/if}
 	</button>
-	<video class="video" autoplay loop preload="metadata" {poster}>
+	<video class="video" autoplay loop preload="metadata" bind:this={video} {poster}>
 		<source src={music_video} type="video/mp4" />
 		<track kind="captions" />
 		<!-- Fallback content for browsers that don't support MP4 -->
@@ -70,19 +66,21 @@
 			Your browser does not support the video format. Please consider upgrading to a modern browser.
 		</p>
 		<!-- Fallback thumbnail image -->
-		<!-- <img src="thumbnail.jpg" alt="Video thumbnail" /> -->
+		<img src={poster} alt="Video thumbnail" />
 	</video>
 	<figcaption>CALIFORNIA CAN'T CRY</figcaption>
 </figure>
 
 <style>
 	.video-container {
+		container-type: inline-size;
 		position: relative;
 		width: 100%;
 		height: auto;
 		margin: 0;
 		overflow: hidden;
 		border-radius: 1rem;
+		box-shadow: var(--shadow-elevation-medium);
 	}
 
 	.video {
@@ -113,7 +111,7 @@
 	}
 
 	/* screens larger than 768px */
-	@media (min-width: 768px) {
+	@container (min-width: 768px) {
 		.play-button {
 			display: none;
 			visibility: hidden;

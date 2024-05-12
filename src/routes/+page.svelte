@@ -1,7 +1,8 @@
 <script lang="ts">
 	import Video from '$lib/components/Video.svelte';
-	const music_video = 'https://3-aws-file.s3.amazonaws.com/BlockchainMusicVideos.mp4';
 	import poster from '$images/screenshot-2.png';
+
+	const music_video = 'https://3-aws-file.s3.amazonaws.com/BlockchainMusicVideos.mp4';
 </script>
 
 <Video {music_video} {poster} />

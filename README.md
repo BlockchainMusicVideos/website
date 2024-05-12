@@ -18,6 +18,10 @@ AWS Amplify would be the best option for hosting
 
 ### Todos
 
-- [ ] Deploy to AWS Amplify
-- [ ] Build out the rest of the site
+- [x] Deploy to AWS Amplify
+- [x] Build out index page
+- [x] Build out legal pages
+- [x] Simple pay button
+- [ ] Build out videos page
 - [ ] Add e-commerce functionality
+- [ ] Complete page design
