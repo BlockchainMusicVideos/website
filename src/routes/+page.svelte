@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Video from '$lib/components/Video.svelte';
-	import poster from '$images/screenshot-2.png';
+	import poster from '$images/screenshot-2.webp';
 	import ios_app_store_icon from '$images/ios-app-store-icon.webp';
 
 	const music_video = 'https://3-aws-file.s3.amazonaws.com/BlockchainMusicVideos.mp4';
