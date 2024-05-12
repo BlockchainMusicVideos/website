@@ -8,6 +8,19 @@
 	let video_container: HTMLDivElement | null = null;
 
 	let is_muted = $state(true);
+	let isPlaying = $state(false);
+
+	function togglePlay() {
+		if (video) {
+			if (video.paused) {
+				video.play();
+				isPlaying = true;
+			} else {
+				video.pause();
+				isPlaying = false;
+			}
+		}
+	}
 
 	onMount(() => {
 		video = document.querySelector('.video');
@@ -42,6 +55,13 @@
 </script>
 
 <figure id="video-container" class="video-container">
+	<button class="play-button" onclick={togglePlay}>
+		{#if isPlaying}
+			<span>Pause</span>
+		{:else}
+			<span>Play</span>
+		{/if}
+	</button>
 	<video class="video" autoplay loop preload="metadata" {poster}>
 		<source src={music_video} type="video/mp4" />
 		<track kind="captions" />
@@ -76,5 +96,27 @@
 		color: var(--pico-color);
 		padding: 0.75rem 1rem;
 		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.play-button {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgba(0, 0, 0, 0.5);
+		color: white;
+		border: none;
+		padding: 0.5rem 1rem;
+		font-size: 1rem;
+		cursor: pointer;
+		z-index: 1000;
+	}
+
+	/* screens larger than 768px */
+	@media (min-width: 768px) {
+		.play-button {
+			display: none;
+			visibility: hidden;
+		}
 	}
 </style>
