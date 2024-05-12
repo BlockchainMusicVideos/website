@@ -14,10 +14,10 @@
 <footer>
 	<p>© 2024 Ai-Blockchain, Inc. All rights reserved.</p>
 	<p>
-		<a href="/privacy-policy">Privacy Policy</a> -
+		<a href="/privacy">Privacy Policy</a> -
 		<a href="/legal">Legal Notice</a> -
 		<a href="/dmca">DMCA</a> -
-		<a href="/terms-of-service">Terms of Service</a>
+		<a href="/tou">Terms of Service</a>
 	</p>
 </footer>
 
@@ -39,6 +39,7 @@
 			rgba(0, 0, 0, 0.4) 40%
 		);
 	}
+
 	a {
 		color: var(--pico-primary);
 		text-decoration: none;
