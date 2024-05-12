@@ -2,7 +2,7 @@
 	import { default as detectAutoplay } from 'detect-autoplay';
 	import { onMount } from 'svelte';
 
-	let { music_video } = $props();
+	let { music_video, poster } = $props();
 
 	let video: HTMLVideoElement | null = null;
 	let video_container: HTMLDivElement | null = null;
@@ -42,8 +42,9 @@
 </script>
 
 <figure id="video-container" class="video-container">
-	<video class="video" autoplay loop preload="metadata">
+	<video class="video" autoplay loop preload="metadata" {poster}>
 		<source src={music_video} type="video/mp4" />
+		<track kind="captions" />
 		<!-- Fallback content for browsers that don't support MP4 -->
 		<p>
 			Your browser does not support the video format. Please consider upgrading to a modern browser.
