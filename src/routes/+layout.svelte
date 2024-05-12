@@ -22,22 +22,30 @@
 </footer>
 
 <style>
+	:global(body) {
+		background:
+			linear-gradient(
+				180deg,
+				var(--pico-primary-background) 8%,
+				var(--pico-primary-hover) 20%,
+				rgba(0, 0, 0, 0.75)
+			),
+			url('$images/sun-burst.png') no-repeat center center fixed;
+		background-size: cover;
+	}
 	header,
 	main,
 	footer {
+		position: relative;
+		z-index: 3;
 		padding: 1rem;
 		max-width: 1200px;
 		margin: 0 auto;
-		background: rgba(0, 0, 0, 0.4);
+		background: rgba(0, 0, 0, 1);
 	}
 	main {
 		min-height: calc(100vh - 400px);
-		background: linear-gradient(
-			180deg,
-			var(--pico-primary-background) 8%,
-			var(--pico-primary-hover) 20%,
-			rgba(0, 0, 0, 0.4) 40%
-		);
+		background: rgba(0, 0, 0, 0.75);
 		padding: 2rem 1rem 0.5rem 1rem;
 	}
 

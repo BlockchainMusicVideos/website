@@ -174,9 +174,9 @@
 	<p>
 		This is Located in the United States Our Services are hosted in the United States. If you are
 		outside of the United States, your information will be processed and stored in the United States
-		and you are consenting to such processing and storage
+		and you are consenting to such processing and storage.
 	</p>
-	.
+
 	<h3>Changes</h3>
 	<p>
 		Our Privacy Policy may change from time to time. We will post any privacy policy changes on this
