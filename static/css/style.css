@@ -1,3 +1,24 @@
+@import './typography.css';
+
+:root {
+	--black: #000;
+	--dark-grey: #333;
+	--dark-gray: var(--dark-grey);
+	--grey: #666;
+	--gray: var(--grey);
+	--light-grey: #f4f4f4;
+	--light-gray: var(--light-grey);
+
+	--bg-gradient: linear-gradient(45deg, var(--grey) 5%, var(--black) 100%);
+}
+
+body {
+	background: var(--bg-gradient);
+	color: var(--pico-color);
+	margin: 0;
+	padding: 0;
+}
+
 .user-hidden {
 	visibility: hidden;
 	opacity: 0;
@@ -5,7 +26,7 @@
 
 .unmute-btn {
 	position: absolute;
-	bottom: 3rem;
+	bottom: 4rem;
 	left: 1rem;
 	z-index: 1000;
 	background-color: rgba(0, 0, 0, 0.5);
