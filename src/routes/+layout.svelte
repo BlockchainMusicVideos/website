@@ -30,7 +30,7 @@
 				var(--pico-primary-hover) 20%,
 				rgba(0, 0, 0, 0.75)
 			),
-			url('$images/sun-burst.png') no-repeat center center fixed;
+			url('$images/sun_burst.webp') no-repeat center center fixed;
 		background-size: cover;
 	}
 	header,
