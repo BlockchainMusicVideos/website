@@ -38,8 +38,10 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-static": "^3.0.1",
+		"@sveltejs/adapter-vercel": "^5.3.0",
 		"@vercel/nft": "^0.27.0",
 		"can-autoplay": "^3.0.2",
+		"clerk-sveltekit": "^0.4.2",
 		"detect-autoplay": "^0.0.1",
 		"dotenv": "^16.4.5"
 	}

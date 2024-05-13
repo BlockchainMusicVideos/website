@@ -1,4 +1,5 @@
-<script lang="ts">
+<svelte:options runes={true} />
+<script lang="ts" runes=>
 	import { default as detectAutoplay } from 'detect-autoplay';
 	import { onMount } from 'svelte';
 
