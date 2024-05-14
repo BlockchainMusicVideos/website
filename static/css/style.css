@@ -17,6 +17,8 @@
 		0px 5.8px 6.1px -1.5px hsl(var(--shadow-color) / 0.45),
 		0px 12.5px 13.2px -2.2px hsl(var(--shadow-color) / 0.42),
 		0px 25px 26.4px -2.9px hsl(var(--shadow-color) / 0.39);
+
+	--text: var(--light-grey);
 }
 
 body {
@@ -50,7 +52,7 @@ body {
 
 button {
 	background: transparent;
-	color: var(--pico-contrast-background);
+	color: var(--text);
 	border-radius: 100svw;
 	border: var(--pico-primary-background) 2px solid;
 	cursor: pointer;
