@@ -61,6 +61,15 @@
 		justify-content: space-between;
 		align-items: center;
 	}
+	@media (max-width: 768px) {
+		header {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		nav {
+			margin-left: auto;
+		}
+	}
 
 	main {
 		min-height: calc(100vh - 400px);
