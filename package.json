@@ -15,6 +15,7 @@
 		"test:unit": "vitest"
 	},
 	"devDependencies": {
+		"@jill64/sveltekit-adapter-aws": "^1.9.1",
 		"@playwright/test": "^1.44.0",
 		"@sveltejs/adapter-auto": "^3.2.0",
 		"@sveltejs/kit": "^2.5.7",
@@ -22,6 +23,8 @@
 		"@types/eslint": "^8.56.10",
 		"@typescript-eslint/eslint-plugin": "^7.8.0",
 		"@typescript-eslint/parser": "^7.8.0",
+		"aws-cdk-lib": "^2.141.0",
+		"dotenv": "^16.4.5",
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.39.0",
@@ -42,7 +45,6 @@
 		"@vercel/nft": "^0.27.0",
 		"can-autoplay": "^3.0.2",
 		"clerk-sveltekit": "^0.4.2",
-		"detect-autoplay": "^0.0.1",
-		"dotenv": "^16.4.5"
+		"detect-autoplay": "^0.0.1"
 	}
 }
