@@ -4,7 +4,6 @@
 
 	let { data } = $props() as { data: PageData };
 	let { videos } = data;
-	console.log(videos);
 </script>
 
 <div class="video-grid">
