@@ -7,6 +7,6 @@ export const handle: Handle = sequence(
 	handleClerk(CLERK_SECRET_KEY, {
 		debug: true,
 		protectedPaths: ['/videos', '/admin'],
-		signInUrl: '/sign-in'
+		signInUrl: '/signin'
 	})
 );

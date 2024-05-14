@@ -57,6 +57,13 @@
 		margin: 0 auto;
 		background: rgba(0, 0, 0, 1);
 	}
+
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
 	main {
 		min-height: calc(100vh - 400px);
 		background: rgba(0, 0, 0, 0.75);

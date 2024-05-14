@@ -47,3 +47,11 @@ body {
 	border-radius: 5px;
 	cursor: pointer;
 }
+
+button {
+	background: var(--pico-primary-background);
+	color: var(--pico-contrast-background);
+	border: none;
+	outline: none;
+	padding: 0.25rem 0.5rem;
+}
