@@ -22,6 +22,6 @@ AWS Amplify would be the best option for hosting
 - [x] Build out index page
 - [x] Build out legal pages
 - [x] Simple pay button
-- [ ] Build out videos page
+- [x] Build out videos page
 - [ ] Add e-commerce functionality
-- [ ] Complete page design
+- [x] Complete page design
