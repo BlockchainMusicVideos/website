@@ -44,14 +44,15 @@ body {
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-radius: 100svw;
 	cursor: pointer;
 }
 
 button {
-	background: var(--pico-primary-background);
+	background: transparent;
 	color: var(--pico-contrast-background);
-	border: none;
-	outline: none;
-	padding: 0.25rem 0.5rem;
+	border-radius: 100svw;
+	border: var(--pico-primary-background) 2px solid;
+	cursor: pointer;
+	padding: 0.5rem 1rem;
 }

@@ -1,25 +1,30 @@
 <svelte:options runes={true} />
 
 <script lang="ts">
-	import { default as detectAutoplay } from 'detect-autoplay';
 	import { onMount } from 'svelte';
+	import { default as detectAutoplay } from 'detect-autoplay';
 
-	let { music_video, poster } = $props();
+	let { music_video, poster, is_playing = false } = $props();
 
 	let video: HTMLVideoElement | null = null;
 	let video_container: HTMLDivElement | null = null;
 
 	let is_muted = $state(true);
-	let isPlaying = $state(false);
+
+	onMount(() => {
+		if (video) {
+			video.paused;
+		}
+	});
 
 	function togglePlay() {
 		if (video) {
 			if (video.paused) {
 				video.play();
-				isPlaying = true;
+				is_playing = true;
 			} else {
 				video.pause();
-				isPlaying = false;
+				is_playing = false;
 			}
 		}
 	}
@@ -54,7 +59,7 @@
 
 <figure class="video-container" bind:this={video_container}>
 	<button class="play-button" onclick={togglePlay}>
-		{#if isPlaying}
+		{#if is_playing}
 			<span>Pause</span>
 		{:else}
 			<span>Play</span>

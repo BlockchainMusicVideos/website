@@ -13,7 +13,7 @@
 </p>
 
 <p>
-	<a href="#"
+	<a href="/"
 		><img class="ios_app_store_icon" src={ios_app_store_icon} alt="iOS App Store Icon" /></a
 	>
 </p>
