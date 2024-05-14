@@ -60,6 +60,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		border-bottom: var(--pico-primary-background) 1px solid;
 	}
 	@media (max-width: 768px) {
 		header {
@@ -80,5 +81,10 @@
 	a {
 		color: var(--pico-primary);
 		text-decoration: none;
+	}
+
+	footer {
+		border-top: var(--pico-primary-background) 1px solid;
+		text-align: center;
 	}
 </style>

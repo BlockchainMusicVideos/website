@@ -1,6 +1,7 @@
 @import './typography.css';
 
 :root {
+	--white: #fff;
 	--black: #000;
 	--dark-grey: #333;
 	--dark-gray: var(--dark-grey);
@@ -18,7 +19,7 @@
 		0px 12.5px 13.2px -2.2px hsl(var(--shadow-color) / 0.42),
 		0px 25px 26.4px -2.9px hsl(var(--shadow-color) / 0.39);
 
-	--text: var(--light-grey);
+	--text: var(--white);
 }
 
 body {
