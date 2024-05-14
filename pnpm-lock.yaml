@@ -11,6 +11,9 @@ dependencies:
   '@vercel/nft':
     specifier: ^0.27.0
     version: 0.27.0
+  '@vercel/speed-insights':
+    specifier: ^1.0.10
+    version: 1.0.10(@sveltejs/kit@2.5.7)(react@18.3.1)(svelte@5.0.0-next.130)
   can-autoplay:
     specifier: ^3.0.2
     version: 3.0.2
@@ -1211,6 +1214,35 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
+    dev: false
+
+  /@vercel/speed-insights@1.0.10(@sveltejs/kit@2.5.7)(react@18.3.1)(svelte@5.0.0-next.130):
+    resolution: {integrity: sha512-4uzdKB0RW6Ff2FkzshzjZ+RlJfLPxgm/00i0XXgxfMPhwnnsk92YgtqsxT9OcPLdJUyVU1DqFlSWWjIQMPkh0g==}
+    requiresBuild: true
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19
+      svelte: ^4
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
+    dependencies:
+      '@sveltejs/kit': 2.5.7(@sveltejs/vite-plugin-svelte@3.1.0)(svelte@5.0.0-next.130)(vite@5.2.11)
+      react: 18.3.1
+      svelte: 5.0.0-next.130
     dev: false
 
   /@vitest/expect@1.6.0:
