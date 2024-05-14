@@ -3,9 +3,9 @@ import type { HandleClientError } from '@sveltejs/kit';
 import { initializeClerkClient } from 'clerk-sveltekit/client';
 // Or for headless mode:
 // import { initializeClerkClient } from 'clerk-sveltekit/headless'
-import { PUBLIC_CLERK_KEY } from '$env/static/public';
+import { PUBLIC_CLERK_PUBLISHABLE_KEY } from '$env/static/public';
 
-initializeClerkClient(PUBLIC_CLERK_KEY, {
+initializeClerkClient(PUBLIC_CLERK_PUBLISHABLE_KEY, {
 	afterSignInUrl: '/videos/',
 	afterSignUpUrl: '/videos/',
 	signInUrl: '/sign-in',

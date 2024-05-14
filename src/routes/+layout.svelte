@@ -2,6 +2,8 @@
 	import UserButton from 'clerk-sveltekit/client/UserButton.svelte';
 	import SignedIn from 'clerk-sveltekit/client/SignedIn.svelte';
 	import SignedOut from 'clerk-sveltekit/client/SignedOut.svelte';
+	import SignInButton from 'clerk-sveltekit/client/SignInButton.svelte';
+	import SignUpButton from 'clerk-sveltekit/client/SignUpButton.svelte';
 	import type { Snippet } from 'svelte';
 	let { children }: { children: Snippet } = $props();
 </script>
@@ -13,8 +15,8 @@
 			<UserButton afterSignOutUrl="/" />
 		</SignedIn>
 		<SignedOut>
-			<a href="/sign-in">Sign in</a> <span>|</span> <a href="/sign-up">Sign up</a>
-			<!-- You could also use <SignInButton mode="modal" /> and <SignUpButton mode="modal" /> here -->
+			<SignInButton mode="modal" />
+			<SignUpButton mode="modal" />
 		</SignedOut>
 	</nav>
 </header>
