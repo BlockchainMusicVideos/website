@@ -8,6 +8,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
+			$css: './src/lib/css',
 			$images: './src/lib/media/images',
 			$videos: './src/lib/media/videos'
 		}

@@ -5,6 +5,8 @@
 	import SignInButton from 'clerk-sveltekit/client/SignInButton.svelte';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 
+	import '$css/style.css';
+
 	injectSpeedInsights();
 
 	import type { Snippet } from 'svelte';
