@@ -1,0 +1,67 @@
+@import './pico.classless.conditional.orange.min.css';
+@import './typography.css';
+
+:root {
+	--white: #fff;
+	--black: #000;
+	--dark-grey: #333;
+	--dark-gray: var(--dark-grey);
+	--grey: #666;
+	--gray: var(--grey);
+	--light-grey: #f4f4f4;
+	--light-gray: var(--light-grey);
+
+	--bg-gradient: linear-gradient(45deg, var(--grey) 5%, var(--black) 100%);
+
+	--shadow-color: hsl(0, 0%, 29%);
+	--shadow-elevation-medium: 0px 1px 1.1px hsl(var(--shadow-color) / 0.52),
+		0px 2.8px 3px -0.7px hsl(var(--shadow-color) / 0.48),
+		0px 5.8px 6.1px -1.5px hsl(var(--shadow-color) / 0.45),
+		0px 12.5px 13.2px -2.2px hsl(var(--shadow-color) / 0.42),
+		0px 25px 26.4px -2.9px hsl(var(--shadow-color) / 0.39);
+
+	--text: var(--white);
+}
+
+body {
+	background: var(--bg-gradient);
+	color: var(--pico-color);
+	margin: 0;
+	padding: 0;
+}
+
+.legal {
+	padding: 0.5rem;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.user-hidden {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.unmute-btn {
+	position: absolute;
+	bottom: 4rem;
+	left: 1rem;
+	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 100svw;
+	cursor: pointer;
+}
+
+button {
+	background: transparent;
+	color: var(--text);
+	border-radius: 100svw;
+	border: var(--pico-primary-background) 2px solid;
+	cursor: pointer;
+	padding: 0.5rem 1rem;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
