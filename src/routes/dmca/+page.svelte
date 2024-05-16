@@ -110,11 +110,13 @@
 	</p>
 
 	<hr />
-	<p>DMCA Agent</p>
-	<p>BLOCKCHAIN MUSIC VIDEOS</p>
-	<p>33 South Woodside Avenue</p>
-	<p>Bergenfield, NJ 07621</p>
-	<p>Phone: (201) 349-4996</p>
+	<address>
+		DMCA Agent<br />
+		BLOCKCHAIN MUSIC VIDEOS<br />
+		33 South Woodside Avenue<br />
+		Bergenfield, NJ 07621<br />
+		Phone: (201) 349-4996<br />
+	</address>
 	<p>
 		Email: <a href="mailto:info@blockchainmusicvideos.com">info@blockchainmusicvideos.com</a> with the
 		subject line "Copyright Policy - DMCA Counter Notification"
