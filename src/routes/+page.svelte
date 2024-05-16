@@ -12,9 +12,17 @@
 <a class="buy_button" href="http://PayPal.Me/ARTNYC">ENTER $4.99 for viewing 5+ MUSIC VIDEOS</a>
 
 <div class="store_icons">
-	<a href="/"><img class="store_icon" src={ios_app_store_icon} alt="iOS App Store Icon" /></a>
+	<a href="/"
+		><img
+			width="564"
+			height="168"
+			class="store_icon"
+			src={ios_app_store_icon}
+			alt="iOS App Store Icon"
+		/></a
+	>
 	<a href="/">
-		<img class="store_icon" src={play_store_icon} alt="Play Store Icon" />
+		<img width="600" height="211" class="store_icon" src={play_store_icon} alt="Play Store Icon" />
 	</a>
 </div>
 
