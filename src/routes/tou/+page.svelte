@@ -1,7 +1,7 @@
 <div class="legal">
 	<h2>BLOCKCHAIN MUSIC VIDEOS TERMS OF USE</h2>
 	<h3>LAST REVISION: May 11, 2024</h3>
-	<p>SPECIAL NOTE FOR WWW.BLOCKCHAINMUSICVIDEOS.COMVISITORS</p>
+	<p>SPECIAL NOTE FOR WWW.BLOCKCHAINMUSICVIDEOS.COM VISITORS</p>
 	<p>
 		This is a legal agreement, and it is very important that you understand exactly what you are
 		agreeing to when you become a BLOCKCHAIN MUSIC VIDEOS member. Please review the following terms
