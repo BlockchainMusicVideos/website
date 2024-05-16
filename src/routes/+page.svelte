@@ -14,15 +14,15 @@
 <div class="store_icons">
 	<a href="/"
 		><img
-			width="564"
-			height="168"
+			width="600"
+			height="211"
 			class="store_icon"
 			src={ios_app_store_icon}
 			alt="iOS App Store Icon"
 		/></a
 	>
 	<a href="/">
-		<img width="600" height="211" class="store_icon" src={play_store_icon} alt="Play Store Icon" />
+		<img width="564" height="168" class="store_icon" src={play_store_icon} alt="Play Store Icon" />
 	</a>
 </div>
 
